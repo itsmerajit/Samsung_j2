@@ -342,6 +342,7 @@ DEPMOD		= /sbin/depmod
 PERL		= perl
 CHECK		= sparse
 
+CHECKFLAGS     := -D__linux__ -Dlinux -D__STDC__ -Dunix -D__unix__ \
                   -Wbitwise -Wno-return-void $(CF)
 OPTIMIZATION_FLAGS = -mtune=cortex-a7 -mfpu=neon \
                      -ffast-math -fsingle-precision-constant \

@@ -1215,7 +1215,7 @@ choice
 config CC_OPTIMIZE_FOR_SIZE
 	bool "Use -Os"
 	help
-	 Enabling this option will pass "-Os" instead of "-O2" or "-O3" to gcc
+	  Enabling this option will pass "-Os" instead of "-O2" or "-O3" to gcc
 	  resulting in a smaller, less optimized kernel.
 
 config CC_OPTIMIZE_DEFAULT
